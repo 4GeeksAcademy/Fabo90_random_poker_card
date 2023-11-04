@@ -1,1 +1,32 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.container {
+  width: 400px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  font-size: 115px;
+  padding: 10px;
+  border-radius: 3%;
+  box-shadow: 10px 5px 5px black;
+}
+
+.number {
+  text-align: center;
+  align-self: center;
+  font-size: 200px;
+}
+
+.bottom {
+  transform: rotate(180deg);
+  padding-left: 30px;
+}
+.top {
+  padding-left: 30px;
+}

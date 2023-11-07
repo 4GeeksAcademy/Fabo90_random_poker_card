@@ -1,32 +1,50 @@
 body {
   background-color: green;
 }
-.container {
+#container {
   width: 400px;
   margin: auto;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
-
-.card {
+#card {
   background-color: white;
-  color: black;
-  font-size: 115px;
   padding: 10px;
   border-radius: 3%;
   box-shadow: 10px 5px 5px black;
 }
-
-.number {
+#number {
   text-align: center;
-  align-self: center;
   font-size: 200px;
 }
-
-.bottom {
+#bottom {
   transform: rotate(180deg);
   padding-left: 30px;
+  font-size: 115px;
 }
-.top {
+#top {
   padding-left: 30px;
+  font-size: 115px;
+}
+#containerBtn {
+  text-align: center;
+}
+#button1 {
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5%;
+  box-shadow: 7px 5px 5px black;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 10px;
+  line-height: 30px;
+  transition: 0.2s;
+}
+#button1:active {
+  box-shadow: 4px 2px 2px black;
+  transform: translate(2px, 2px);
+}
+#button1:hover {
+  transform: scale(1.1);
 }
